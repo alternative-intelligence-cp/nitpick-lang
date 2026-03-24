@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+build_tmp/
+*.o
+*.a
+*.so
+*.dylib
+a.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Aria artifacts
+*.aria-pkg
