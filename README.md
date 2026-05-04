@@ -1,5 +1,9 @@
 # Aria Programming Language
 
+<p align="center">
+    <img src="assets/nitpick_logo.png" alt="Nitpick logo: raccoon holding a magnifying glass" width="240">
+</p>
+
 > 🚧 **Rebrand in progress:** Aria is becoming **Nitpick**. This hub repo still
 > uses Aria names while the migration is underway. Existing repository history
 > and links are being preserved; repo renames should prefer GitHub's in-place
