@@ -1,5 +1,10 @@
 # Aria Programming Language
 
+> 🚧 **Rebrand in progress:** Aria is becoming **Nitpick**. This hub repo still
+> uses Aria names while the migration is underway. Existing repository history
+> and links are being preserved; repo renames should prefer GitHub's in-place
+> rename flow so redirects keep working.
+
 **A safety-critical programming language for deterministic systems.**
 
 Aria is a compiled language with an LLVM backend, designed for systems where correctness, determinism, and safety are paramount. It features a strong type system, atomic operations, trit/nit logic, and a growing ecosystem of packages and tools.
