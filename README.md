@@ -54,13 +54,13 @@ The Aria project is organized across multiple repositories under the [Alternativ
 ### Install from APT (Ubuntu 24.04 / Linux Mint 22.x)
 ```bash
 curl -fsSL https://packages.ariax.ai-liberation-platform.org/setup-repo.sh | sudo bash
-sudo apt install aria
+sudo apt install nitpick
 ```
 
 ### Build from Source
 ```bash
-git clone https://github.com/alternative-intelligence-cp/aria.git
-cd aria
+git clone https://github.com/alternative-intelligence-cp/nitpick.git
+cd nitpick
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
@@ -68,13 +68,15 @@ sudo make install
 ```
 
 ### Hello World
-```aria
-fn main() {
-    print("Hello, Aria!")
-}
+```nitpick
+func:main = int32() {
+    drop(println("Hello from Nitpick!"));
+    exit(0);
+};
+func:failsafe = int32(tbb32:err) { exit(1); };
 ```
 ```bash
-ariac hello.aria -o hello
+npkc hello.npk -o hello
 ./hello
 ```
 
@@ -82,20 +84,20 @@ ariac hello.aria -o hello
 
 ```
 aria (compiler)
-├── ariac          — Compiler (Aria → LLVM IR → native)
+├── npkc           — Compiler (Nitpick → LLVM IR → native, was ariac)
 ├── aria-ls        — Language Server Protocol implementation
-├── aria-pkg       — Package manager
+├── npkpkg         — Package manager (was aria-pkg)
 ├── aria-doc       — Documentation generator
 ├── stdlib/        — Standard library (ships with compiler)
 └── tests/         — Compiler + stdlib test suite
 
-aria-packages      — 39 ecosystem packages
-aria-make          — Build system (ABC configs, FFI, glob)
-aria-docs          — Docs, man pages, 63+ examples
-aria-tools         — Safety audit, MCP, editors, VS Code
-aria-specialist    — AI model training (Qwen2.5-7B fine-tune)
-aria-packages-apt  — APT repo infrastructure
-ariax              — AriaX Linux distribution
+nitpick-packages   — 103 ecosystem packages
+nitpick-build      — Build system, npkbld (was aria-make)
+nitpick-docs       — Docs, man pages, 78+ examples
+nitpick-tools      — Safety audit, MCP, editors, VS Code
+nitpick-specialist — AI model training (Qwen2.5-7B fine-tune)
+nitpick-packages-apt — APT repo infrastructure
+nitpicker          — Nitpicker Linux distribution (was AriaX)
 ```
 
 ## Organization
