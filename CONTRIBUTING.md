@@ -1,6 +1,6 @@
-# Contributing to the Aria Language Hub
+# Contributing to the Nitpick Language Hub
 
-This repository serves as the central landing page and coordination point for the Aria programming language ecosystem.
+This repository serves as the central landing page and coordination point for the Nitpick programming language ecosystem.
 
 ## What Belongs Here
 
@@ -11,10 +11,10 @@ This repository serves as the central landing page and coordination point for th
 
 ## What Belongs Elsewhere
 
-- Compiler changes → [aria](https://github.com/alternative-intelligence-cp/aria)
-- Documentation → [aria-docs](https://github.com/alternative-intelligence-cp/aria-docs)
-- Packages → [aria-packages](https://github.com/alternative-intelligence-cp/aria-packages)
-- Tools → [aria-tools](https://github.com/alternative-intelligence-cp/aria-tools)
+- Compiler changes → [nitpick](https://github.com/alternative-intelligence-cp/nitpick)
+- Documentation → [nitpick-docs](https://github.com/alternative-intelligence-cp/nitpick-docs)
+- Packages → [nitpick-packages](https://github.com/alternative-intelligence-cp/nitpick-packages)
+- Tools → [nitpick-tools](https://github.com/alternative-intelligence-cp/nitpick-tools)
 
 ## Making Changes
 
