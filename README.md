@@ -4,10 +4,6 @@
     <img src="assets/nitpick_logo.png" alt="Nitpick logo: raccoon holding a magnifying glass" width="240">
 </p>
 
-> 🚧 **Rebrand in progress:** Nitpick is becoming **Nitpick**. This hub repo still
-> uses Nitpick names while the migration is underway. Existing repository history
-> and links are being preserved; repo renames should prefer GitHub's in-place
-> rename flow so redirects keep working.
 
 **A safety-critical programming language for deterministic systems.**
 
@@ -28,7 +24,7 @@ The Nitpick project is organized across multiple repositories under the [Alterna
 
 | Repository | Description |
 |-----------|-------------|
-| [nitpick-packages](https://github.com/alternative-intelligence-cp/nitpick-packages) | 39 ecosystem packages (networking, GUI, audio, testing, etc.) |
+| [nitpick-packages](https://github.com/alternative-intelligence-cp/nitpick-packages) | 113 ecosystem packages (networking, GUI, audio, testing, etc.) |
 | [nitpick-build](https://github.com/alternative-intelligence-cp/nitpick-build) | Build system with ABC config format and FFI support |
 | [nitpick-docs](https://github.com/alternative-intelligence-cp/nitpick-docs) | Documentation, man pages, examples, and language specs |
 | [nitpick-tools](https://github.com/alternative-intelligence-cp/nitpick-tools) | Developer tools — safety audit, MCP server, editor support, VS Code extension |
@@ -84,20 +80,20 @@ npkc hello.npk -o hello
 
 ```
 nitpick (compiler)
-├── npkc           — Compiler (Nitpick → LLVM IR → native, was nitpickc)
+├── npkc           — Compiler (Nitpick → LLVM IR → native)
 ├── nitpick-ls        — Language Server Protocol implementation
-├── npkpkg         — Package manager (was nitpick-pkg)
+├── npkpkg         — Package manager
 ├── nitpick-doc       — Documentation generator
 ├── stdlib/        — Standard library (ships with compiler)
 └── tests/         — Compiler + stdlib test suite
 
-nitpick-packages   — 103 ecosystem packages
-nitpick-build      — Build system, npkbld (was nitpick-build)
+nitpick-packages   — 113 ecosystem packages
+nitpick-build      — Build system, npkbld
 nitpick-docs       — Docs, man pages, 78+ examples
 nitpick-tools      — Safety audit, MCP, editors, VS Code
 nitpick-specialist — AI model training (Qwen2.5-7B fine-tune)
 nitpick-packages-apt — APT repo infrastructure
-nitpicker          — Nitpicker Linux distribution (was NitpickX)
+nitpicker          — Nitpicker Linux distribution
 ```
 
 ## Organization
@@ -123,9 +119,10 @@ The Nitpick project and everything built around it — compiler, packages, tools
 
 ## Current Release
 
-**v0.2.2** (in development)
+**v0.60.4.1** (Stable)
 - LLVM 20.1.2 backend
-- 39 ecosystem packages
+- 113 ecosystem packages
+- Full module system (`use`, `mod`, `pub`, cross-module visibility)
 - GTK4, SDL2, Raylib GUI wrappers
 - LSP with document symbols, references, signature help
 - DAP debugger with conditional breakpoints
