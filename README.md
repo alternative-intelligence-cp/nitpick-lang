@@ -44,6 +44,7 @@ The Nitpick project is organized across multiple repositories under the [Alterna
 | [napit](https://github.com/alternative-intelligence-cp/napit) | Cross-platform API client |
 | [nitpick-studio](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nitpick-debugger) | Official graphical debugger IDE |
 | [nscp](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nscp) | Terminal file transfer application |
+| [nkmon](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nkmon) | Terminal kernel and system monitor |
 
 ### Distribution
 
