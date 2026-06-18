@@ -43,6 +43,7 @@ The Nitpick project is organized across multiple repositories under the [Alterna
 | [nalculator](https://github.com/alternative-intelligence-cp/nalculator) | Precision calculator application |
 | [napit](https://github.com/alternative-intelligence-cp/napit) | Cross-platform API client |
 | [nitpick-studio](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nitpick-debugger) | Official graphical debugger IDE |
+| [nytmusic](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nytmusic) | YouTube Music terminal player |
 
 ### Distribution
 
