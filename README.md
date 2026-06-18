@@ -47,6 +47,7 @@ The Nitpick project is organized across multiple repositories under the [Alterna
 | [nkmon](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nkmon) | Terminal kernel and system monitor |
 | [njust](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/njust) | Command runner and project orchestrator |
 | [nyazi](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nyazi) | Minimalist terminal file manager |
+| [ntick](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/ntick) | Beautiful terminal clock with ASCII art fonts |
 
 ### Distribution
 
