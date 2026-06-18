@@ -19,6 +19,7 @@ The Nitpick project is organized across multiple repositories under the [Alterna
 |-----------|-------------|
 | [nitpick](https://github.com/alternative-intelligence-cp/nitpick) | **Compiler, stdlib, runtime, LSP, debugger, package manager** — the core language implementation |
 | [nitpick-lang](https://github.com/alternative-intelligence-cp/nitpick-lang) | This repo — project hub and cross-repo coordination |
+| [Web Documentation](https://ai-liberation-platform.org/nitpick/docs/) | **Official Web Docs** — easily navigable documentation, guides, and reference |
 
 ### Ecosystem
 
@@ -30,6 +31,18 @@ The Nitpick project is organized across multiple repositories under the [Alterna
 | [nitpick-tools](https://github.com/alternative-intelligence-cp/nitpick-tools) | Developer tools — safety audit, MCP server, editor support, VS Code extension |
 | [nitpick-specialist](https://github.com/alternative-intelligence-cp/nitpick-specialist) | AI specialist model training infrastructure (Qwen-based fine-tunes) |
 | [nitpick-packages-apt](https://github.com/alternative-intelligence-cp/nitpick-packages-apt) | APT repository infrastructure for Debian/Ubuntu packages |
+| [nitpick-posix](https://github.com/alternative-intelligence-cp/nitpick-posix) | POSIX compatibility and utilities |
+| [nitpick-ports](https://github.com/alternative-intelligence-cp/nitpick-ports) | Software ports to the Nitpick ecosystem |
+
+### Applications
+
+| Repository | Description |
+|-----------|-------------|
+| [nitty](https://github.com/alternative-intelligence-cp/nitty) | Advanced terminal emulator |
+| [neditor](https://github.com/alternative-intelligence-cp/neditor) | High-performance GUI code editor |
+| [nalculator](https://github.com/alternative-intelligence-cp/nalculator) | Precision calculator application |
+| [napit](https://github.com/alternative-intelligence-cp/napit) | Cross-platform API client |
+| [nitpick-studio](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nitpick-debugger) | Official graphical debugger IDE |
 
 ### Distribution
 
@@ -113,6 +126,7 @@ The Nitpick project and everything built around it — compiler, packages, tools
 | Project | Description |
 |---------|-------------|
 | [Nikola](https://github.com/alternative-intelligence-cp/nikola) | AI/ML platform — the reason Nitpick exists, but its own project |
+| [nikos](https://github.com/alternative-intelligence-cp/nikos) | NIKOS — IKOS static analyzer updated to LLVM 20 for Nikola development |
 | [Educational](https://github.com/alternative-intelligence-cp/educational) | Deep-dive educational material — not "here's how to use the thing," but *how the thing works and why* |
 | [Tech](https://github.com/alternative-intelligence-cp/tech) | Things we built for fun or because we needed them |
 | [Website](https://github.com/alternative-intelligence-cp/ailp-website) | Organization website (ai-liberation-platform.org) |
