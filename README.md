@@ -45,6 +45,8 @@ The Nitpick project is organized across multiple repositories under the [Alterna
 | [nitpick-studio](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nitpick-debugger) | Official graphical debugger IDE |
 | [nscp](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nscp) | Terminal file transfer application |
 | [nkmon](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nkmon) | Terminal kernel and system monitor |
+| [njust](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/njust) | Command runner and project orchestrator |
+| [nyazi](https://github.com/alternative-intelligence-cp/nitpick-packages/tree/main/packages/nyazi) | Minimalist terminal file manager |
 
 ### Distribution
 
