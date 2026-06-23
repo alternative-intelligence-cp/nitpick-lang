@@ -7,6 +7,8 @@
 
 **A safety-critical programming language for deterministic systems.**
 
+> 📖 **[Official Web Documentation](https://ai-liberation-platform.org/nitpick/docs/)** — Start here for guides, references, and language specifications!
+
 Nitpick is a compiled language with an LLVM backend, designed for systems where correctness, determinism, and safety are paramount. It features a strong type system, atomic operations, trit/nit logic, and a growing ecosystem of packages and tools.
 
 ## Repositories
